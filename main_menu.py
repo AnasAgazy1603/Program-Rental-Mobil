@@ -15,7 +15,12 @@ harga_per_tipe = {
 # Database Dummy (Gabungan Mobil & Transaksi)
 rental_db = [
     {"ID Mobil": "M-ABC123", "Tipe": "SUV", "Harga/Hari": harga_per_tipe["SUV"], "Status": "Tersedia", "ID Transaksi": "T-XYZ123", "Nama Pelanggan": "Budi Santoso", "Tanggal Sewa": "01-02-2025", "Tanggal Kembali": "05-02-2025", "Total Harga": 2000000, "Status Pembayaran": "Lunas"},
-    {"ID Mobil": "M-DEF456", "Tipe": "MPV", "Harga/Hari": harga_per_tipe["MPV"], "Status": "Tersedia", "ID Transaksi": "T-MNO456", "Nama Pelanggan": "Siti Aisyah", "Tanggal Sewa": "03-02-2025", "Tanggal Kembali": "07-02-2025", "Total Harga": 1200000, "Status Pembayaran": "Belum Lunas"}
+    {"ID Mobil": "M-DEF456", "Tipe": "MPV", "Harga/Hari": harga_per_tipe["MPV"], "Status": "Tersedia", "ID Transaksi": "T-MNO456", "Nama Pelanggan": "Siti Aisyah", "Tanggal Sewa": "03-02-2025", "Tanggal Kembali": "07-02-2025", "Total Harga": 1200000, "Status Pembayaran": "Belum Lunas"},
+    {"ID Mobil": "M-GHI789", "Tipe": "Sedan", "Harga/Hari": harga_per_tipe["Sedan"], "Status": "Tersedia", "ID Transaksi": "T-PQR789", "Nama Pelanggan": "Joko Widodo", "Tanggal Sewa": "05-02-2025", "Tanggal Kembali": "10-02-2025", "Total Harga": 1500000, "Status Pembayaran": "Lunas"},
+    {"ID Mobil": "M-JKL012", "Tipe": "SUV", "Harga/Hari": harga_per_tipe["SUV"], "Status": "Disewa", "ID Transaksi": "T-STU012", "Nama Pelanggan": "Agus Saputra", "Tanggal Sewa": "02-02-2025", "Tanggal Kembali": "06-02-2025", "Total Harga": 1800000, "Status Pembayaran": "Belum Lunas"},
+    {"ID Mobil": "M-MNO345", "Tipe": "Hatchback", "Harga/Hari": harga_per_tipe["Hatchback"], "Status": "Tersedia", "ID Transaksi": "T-VWX345", "Nama Pelanggan": "Rina Kartika", "Tanggal Sewa": "04-02-2025", "Tanggal Kembali": "08-02-2025", "Total Harga": 1000000, "Status Pembayaran": "Lunas"},
+    {"ID Mobil": "M-PQR678", "Tipe": "MPV", "Harga/Hari": harga_per_tipe["MPV"], "Status": "Tersedia", "ID Transaksi": "T-YZA678", "Nama Pelanggan": "Fajar Pratama", "Tanggal Sewa": "06-02-2025", "Tanggal Kembali": "11-02-2025", "Total Harga": 1400000, "Status Pembayaran": "Belum Lunas"},
+    {"ID Mobil": "M-STU901", "Tipe": "SUV", "Harga/Hari": harga_per_tipe["SUV"], "Status": "Disewa", "ID Transaksi": "T-BCD901", "Nama Pelanggan": "Dewi Lestari", "Tanggal Sewa": "07-02-2025", "Tanggal Kembali": "12-02-2025", "Total Harga": 2200000, "Status Pembayaran": "Lunas"}
 ]
 
 recycle_bin = []  # Menyimpan data yang dihapus sementara
